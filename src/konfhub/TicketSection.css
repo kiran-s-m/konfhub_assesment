@@ -1,0 +1,53 @@
+.ticket-section {
+  padding: 20px;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.ticket-counter {
+  display: flex;
+  justify-content: center; /* Center the ticket counter */
+  gap: 10px;
+  margin-top: 10px; /* Add some space between ticket info and counter */
+}
+
+.ticket-counter button {
+  width: 30px;
+  height: 30px;
+}
+
+.register-btn {
+  display: block;
+  margin: 10px auto 0; /* Center the register button */
+}
+
+.total-price {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.total-price h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.checkout-btn {
+  display: block;
+  margin: 10px auto 0; /* Center the checkout button */
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #444;
+}
